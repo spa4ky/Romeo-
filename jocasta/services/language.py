@@ -22,8 +22,6 @@ for filename in os.listdir("jocasta/languages"):
         lang = yaml.load(f, Loader=yaml.CLoader)
 
         lang_code = lang["language_info"]["code"]
-        lang["language_info"]["babel"] = Locale(lang_code)
-
         LANGUAGES[lang_code] = lang
 
 log.debug(
