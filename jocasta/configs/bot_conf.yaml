@@ -1,0 +1,24 @@
+
+API_ID: 18211714 #https://my.telegram.org/
+API_HASH: '6a38c6ee8784b09e3d60850823a46cd3'  #https://my.telegram.org/
+
+BOT_TOKEN: '5523473758:AAHhD1tugNPXcfcm0GOTcLWSE11uHpwS8TI' #@botfather
+
+STRING_SESSION: '1ApWapzMBu2D3CfhiIBJq9v5hPu8HaKC9TLqouxAQKWm9djC9wLZE2rIOjotA3xdb43TgBS9qtv-Dqx1ggrGq08I__HkWYx0JmvJjYAz94m22uJ-eXyFVCP7cIgsVngrmAB6je347Ki0alIWkYlqjTT3zSX1BLAIqbQfwZxigtE6Poi19sLdP3dvmzNnTUN_OdnlJjnnfu-aO2INLAkr_4vgVm0MbsN_LpEY57M_p-E8DDTw_ehwAzB7PAwP5UoW42OTx4zisD6ezyP2oUB_h0sRiYpVHOFNeyUxGi-vnaSaeFTKHhvN5YClvIGC0B--cza36fUAj5zxU7Hb1dfjfX_3pt_v9qrs=' #python3 session_gen.py
+
+MONGO_URL: 'mongodb+srv://Sarcehkr:Cesar0728.@cluster0.pnzil5l.mongodb.net/?retryWrites=true&w=majority'
+MONGO_DB: 'bot' # leave this as it is or change from services/mongo.py this change here. 
+
+REDIS_URI: 'redis-19240.c91.us-east-1-3.ec2.cloud.redislabs.com'
+REDIS_PORT: 19240
+REDIS_PASS: 'eW3Pc77yMzejvTn2eAFJdsDT6fPFp42C'
+
+SUPPORT_CHAT: -1001752921824 # send live ccs to here must add bot and make bot admin.
+LOG_CHAT: -1001752921824  # send live ccs to here must add bot and make bot admin.
+OWNER_ID: 1846020026 #Owner its
+
+ADMINS: 
+  - 1846020026
+
+
+ALLOW_COMMANDS_FROM_EXC: './'
