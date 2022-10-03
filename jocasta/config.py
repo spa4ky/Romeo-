@@ -4,8 +4,8 @@ from jocasta.utlis.logger import log
 from envparse import env
 
 ALL_USER_DATA = {
-    "REDIS_PORT": 19240,
-    "REDIS_URL": "redis-19240.c91.us-east-1-3.ec2.cloud.redislabs.com",
+    "REDIS_PORT": 15628,
+    "REDIS_URL": "redis-15628.c285.us-west-2-2.ec2.cloud.redislabs.com",
 }
 
 
