@@ -8,10 +8,10 @@ import asyncio
 
 
 aiopool = redis.ConnectionPool(
-    host = 'redis-15628.c285.us-west-2-2.ec2.cloud.redislabs.com',
-    port = 15628,
+    host = 'redis-18696.c99.us-east-1-4.ec2.cloud.redislabs.com',
+    port = 18696,
     # db= get_str_key("REDIS_DB_NAME", 1),
-    # password= get_str_key("REDIS_PASS", 1),
+    password= 'njAyRzawfurMzumgegTsasCJZ8cx6Ooz',
     decode_responses= True,
     socket_connect_timeout = 20,
     socket_timeout = 20,
