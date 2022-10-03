@@ -20,8 +20,11 @@ for filename in os.listdir("jocasta/languages"):
     log.debug("Loading language file " + filename)
     with open("jocasta/languages/" + filename, "r", encoding="utf8") as f:
         lang = yaml.load(f, Loader=yaml.CLoader)
+
         lang_code = lang["language_info"]["code"]
-        LANGUAGES.sort(lang)
+        lang["language_info"]["babel"] = Locale(lang_code)
+
+        LANGUAGES[lang_code] = lang
 
 log.debug(
     "Languages loaded: {}".format(
